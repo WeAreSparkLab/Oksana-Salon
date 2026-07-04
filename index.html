@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Oksana Salon | Norwich Hair &amp; Beauty</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23b8975a'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23faf8f5' font-family='serif' font-style='italic'>O</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +28,7 @@
     .hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 8rem 2rem 6rem; background: radial-gradient(ellipse 80% 60% at 50% 110%, rgba(200,165,145,0.35) 0%, transparent 70%), linear-gradient(160deg, #fdf9f6 0%, #f3ece6 50%, #ede2da 100%); position: relative; overflow: hidden; }
     .hero::before { content: ""; position: absolute; inset: 0; background-image: radial-gradient(circle at 20% 30%, rgba(184,151,90,0.08) 0%, transparent 40%), radial-gradient(circle at 80% 70%, rgba(201,169,154,0.12) 0%, transparent 40%); pointer-events: none; }
     .hero-eyebrow { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; position: relative; }
-    .hero-eyebrow::before, .hero-eyebrow::after { content: "mdash"; margin: 0 0.7em; opacity: 0.5; }
+    .hero-eyebrow::before, .hero-eyebrow::after { content: "\2014"; margin: 0 0.7em; opacity: 0.5; }
     .hero h1 { font-family: "Cormorant Garamond", serif; font-size: clamp(3.5rem, 9vw, 7rem); font-weight: 300; line-height: 1.05; color: var(--dark); position: relative; }
     .hero h1 em { font-style: italic; color: var(--mocha); }
     .hero-sub { margin-top: 1.8rem; font-size: 1rem; color: #7a6a62; letter-spacing: 0.04em; max-width: 420px; position: relative; }
@@ -85,7 +86,7 @@
     </ul>
   </nav>
   <section class="hero">
-    <p class="hero-eyebrow">Norwich &middot; Est. 2020</p>
+    <p class="hero-eyebrow">Norwich &middot; Catton Grove Road</p>
     <h1>Where Beauty<br>Meets <em>Artistry</em></h1>
     <p class="hero-sub">A contemporary salon experience tailored entirely to you.</p>
     <div class="hero-cta">
@@ -95,17 +96,26 @@
   </section>
   <div class="marquee-strip" aria-hidden="true">
     <div class="marquee-inner">
-      <span>Hair Styling</span><span>&bull;</span><span>Colouring</span><span>&bull;</span><span>Nail Treatments</span><span>&bull;</span><span>Brows &amp; Lashes</span><span>&bull;</span><span>Beauty Treatments</span><span>&bull;</span><span>Highlights</span><span>&bull;</span><span>Hair Styling</span><span>&bull;</span><span>Colouring</span><span>&bull;</span><span>Nail Treatments</span><span>&bull;</span><span>Brows &amp; Lashes</span><span>&bull;</span><span>Beauty Treatments</span><span>&bull;</span><span>Highlights</span><span>&bull;</span>
+      <span>Hair Styling</span><span>&bull;</span><span>Colouring &amp; Hair Botox</span><span>&bull;</span><span>Nail Art &amp; Extensions</span><span>&bull;</span><span>Lash Extensions</span><span>&bull;</span><span>Lip Fillers</span><span>&bull;</span><span>Waxing &amp; Facials</span><span>&bull;</span><span>Hair Styling</span><span>&bull;</span><span>Colouring &amp; Hair Botox</span><span>&bull;</span><span>Nail Art &amp; Extensions</span><span>&bull;</span><span>Lash Extensions</span><span>&bull;</span><span>Lip Fillers</span><span>&bull;</span><span>Waxing &amp; Facials</span><span>&bull;</span>
     </div>
   </div>
+  <!-- TODO: confirm these figures against live Facebook/Instagram pages before go-live; sourced via search on 04/07/2026 -->
+  <section id="trust" style="padding:3.5rem 2rem 0;">
+    <div class="container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:3.5rem; text-align:center;">
+      <div><span style="display:block; font-family:'Cormorant Garamond', serif; font-size:2.4rem; color:var(--dark);">96%</span><span style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--mocha);">Recommend Us on Facebook</span></div>
+      <div><span style="display:block; font-family:'Cormorant Garamond', serif; font-size:2.4rem; color:var(--dark);">210+</span><span style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--mocha);">Facebook Reviews</span></div>
+      <div><span style="display:block; font-family:'Cormorant Garamond', serif; font-size:2.4rem; color:var(--dark);">3,600+</span><span style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--mocha);">Social Followers</span></div>
+      <div><span style="display:block; font-family:'Cormorant Garamond', serif; font-size:2.4rem; color:var(--dark);">5</span><span style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--mocha);">Languages Spoken</span></div>
+    </div>
+  </section>
   <section id="about">
     <div class="container">
       <p class="section-label">Our Story</p>
       <h2 class="section-title">A space built for beauty, comfort &amp; confidence</h2>
       <div class="about-inner">
         <div class="about-text">
-          <p>Oksana Salon is a contemporary beauty space in the heart of Norwich, offering expert hair styling, colouring, nail treatments, brows, lashes, and a full range of modern beauty services.</p>
-          <p>Every appointment is a personalised experience &mdash; thoughtful, attentive, and designed to make you look and feel your absolute best. We combine technical mastery with a warm, welcoming atmosphere.</p>
+          <p>Oksana Salon is a well-loved beauty destination on Catton Grove Road, known especially for its nail art and attention to detail &mdash; alongside expert hair styling, colouring, hair botox, lash extensions, lip fillers and a full range of beauty treatments.</p>
+          <p>Our team speaks English, Russian, Lithuanian, Latvian and Polish, so every client feels understood and at ease. With free parking right outside, popping in is easy too.</p>
           <div class="hero-cta" style="justify-content:flex-start; margin-top:2rem;"><a class="btn-outline" href="#services">Explore Services</a></div>
         </div>
         <div class="about-visual"><span class="photo-label">Oksana Salon, Norwich</span></div>
@@ -118,10 +128,11 @@
       <h2 class="section-title">Expert services for every occasion</h2>
       <div class="services-grid">
         <div class="service-item"><span class="service-icon">&#9986;&#65039;</span><div class="service-name">Hair Styling &amp; Cutting</div><p class="service-desc">Precision cuts and styled finishes</p></div>
-        <div class="service-item"><span class="service-icon">&#127912;</span><div class="service-name">Colouring &amp; Highlights</div><p class="service-desc">Balayage, ombr&eacute; &amp; full colour</p></div>
-        <div class="service-item"><span class="service-icon">&#128133;</span><div class="service-name">Nail Treatments</div><p class="service-desc">Manicure, pedicure &amp; gel nails</p></div>
-        <div class="service-item"><span class="service-icon">&#10024;</span><div class="service-name">Brows &amp; Lashes</div><p class="service-desc">Shaping, tinting &amp; extensions</p></div>
-        <div class="service-item"><span class="service-icon">&#127807;</span><div class="service-name">Beauty Treatments</div><p class="service-desc">Facials, waxing &amp; skincare</p></div>
+        <div class="service-item"><span class="service-icon">&#127912;</span><div class="service-name">Colouring &amp; Hair Botox</div><p class="service-desc">Full colour, highlights &amp; treatments</p></div>
+        <div class="service-item"><span class="service-icon">&#128133;</span><div class="service-name">Nail Art &amp; Extensions</div><p class="service-desc">Gel manicures, pedicures &amp; nail art</p></div>
+        <div class="service-item"><span class="service-icon">&#10024;</span><div class="service-name">Lash Extensions</div><p class="service-desc">Classic, hybrid &amp; volume sets</p></div>
+        <div class="service-item"><span class="service-icon">&#128139;</span><div class="service-name">Lip Fillers</div><p class="service-desc">Subtle, natural-looking enhancement</p></div>
+        <div class="service-item"><span class="service-icon">&#127807;</span><div class="service-name">Facials &amp; Waxing</div><p class="service-desc">Skincare &amp; smooth, gentle waxing</p></div>
       </div>
     </div>
   </section>
@@ -131,12 +142,21 @@
       <h2 class="section-title">In the heart of Norwich</h2>
       <div class="loc-inner">
         <dl class="loc-details">
-          <dt>City</dt><dd>Norwich, United Kingdom</dd>
-          <dt>Find us on</dt><dd>Google Maps &mdash; search <em>&ldquo;Oksana Salon&rdquo;</em></dd>
-          <dt>Hours</dt><dd>Mon &ndash; Sat &nbsp;&middot;&nbsp; 9 am &ndash; 7 pm</dd>
-          <dt>Bookings</dt><dd>By appointment &amp; walk-in welcome</dd>
+          <dt>Address</dt><dd>4 Woodgrove Parade, Catton Grove Road, Norwich, NR3 3NS</dd>
+          <dt>Parking</dt><dd>Free parking right outside</dd>
+          <!-- TODO: confirm current hours directly with salon before go-live; below sourced from directory listings, may be outdated -->
+          <dt>Hours</dt><dd>Mon &ndash; Sat &nbsp;&middot;&nbsp; 10 am &ndash; 7 pm &nbsp;&middot;&nbsp; Closed Sunday</dd>
+          <!-- TODO: two different mobile numbers found across directories (07551 323163 vs 07446 855628) — confirm correct one before publishing -->
+          <dt>Email</dt><dd>oksanasalonuk@gmail.com</dd>
+          <dt>Languages</dt><dd>English, Russian, Lithuanian, Latvian, Polish</dd>
         </dl>
-        <div class="map-placeholder"><span class="map-icon">&#128205;</span>Norwich, UK</div>
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=1.2877103%2C52.6493547%2C1.2957103%2C52.6533547&amp;layer=mapnik&amp;marker=52.6513547%2C1.2917103"
+          style="border:0; width:100%; aspect-ratio:1; filter:grayscale(0.15) contrast(1.05);"
+          loading="lazy"
+          title="Oksana Salon location map">
+        </iframe>
+        <a href="https://www.google.com/maps/place/Oksana+Salon/@52.6513547,1.2917103,685m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d9e3d9596ca18b:0x1c4ab0152794387a!8m2!3d52.6513547!4d1.2917103!16s%2Fg%2F1pzxtsnd_" target="_blank" rel="noopener" style="display:block; margin-top:0.8rem; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--mocha); text-align:center;">Get Directions on Google Maps &rarr;</a>
       </div>
     </div>
   </section>
@@ -144,9 +164,11 @@
     <div class="container">
       <p class="section-label">Ready?</p>
       <h2 class="section-title">Book your next appointment</h2>
-      <p>Find us on Google Maps or reach out to schedule your visit. We&rsquo;d love to see you.</p>
+      <p>Message us on Facebook or Instagram, or drop by Catton Grove Road &mdash; we&rsquo;d love to see you.</p>
       <div class="hero-cta">
-        <a class="btn-primary" href="https://www.google.com/maps/search/Oksana+Salon+Norwich" target="_blank" rel="noopener">Find Us on Google Maps</a>
+        <a class="btn-primary" href="https://www.facebook.com/oksana.salon.norwich/" target="_blank" rel="noopener">Message on Facebook</a>
+        <a class="btn-outline" href="https://www.instagram.com/oksana_salon_norwich_uk/" target="_blank" rel="noopener">Message on Instagram</a>
+        <a class="btn-outline" href="https://www.google.com/maps/place/Oksana+Salon/@52.6513547,1.2917103,685m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d9e3d9596ca18b:0x1c4ab0152794387a!8m2!3d52.6513547!4d1.2917103!16s%2Fg%2F1pzxtsnd_" target="_blank" rel="noopener">Find Us on Google Maps</a>
       </div>
     </div>
   </section>
